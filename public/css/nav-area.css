@@ -1,0 +1,54 @@
+
+.nav-area {
+	
+}
+
+.nav-area:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.nav-area ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	min-width: 160px;
+}
+.nav-area ul li a i {
+	margin: 0px 8px;
+}
+.nav-area > ul > li {
+	float: left;
+	position: relative;
+}
+
+.nav-area ul li:hover a {
+	
+}
+
+.nav-area ul ul {
+	position: absolute;
+	min-width: 160px;
+	display: none;
+	flex-direction: row-reverse;
+	top: 100%;
+	left: 50;
+}
+
+.nav-area ul li:hover > ul {
+	display: block;
+}
+
+.nav-area ul ul li:hover a {
+	
+}
+
+.nav-area ul ul li {
+	position: relative;
+}
+
+.nav-area ul ul ul {
+	top: 0;
+	left: 100%;
+}
